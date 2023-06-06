@@ -5,10 +5,10 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApp1"
         mc:Ignorable="d"
-        Title="An important message" Height="450" Width="800">
+        Title="A friendly pop-up" Height="450" Width="800">
     <Grid>
-        <Label Name="LabelOne" Content="hi!!!" Visibility="Hidden" FontSize="30" HorizontalAlignment="Left" Height="53" Margin="314,149,0,0" VerticalAlignment="Top" Width="155"/>
-        <Button Content="Message 4 u" Click="Button_Click" HorizontalAlignment="Left" VerticalAlignment="Top" Width="112" Margin="65,165,0,0" Height="32"/>
+        <Label Name="LabelOne" Content="Have a good day!" Visibility="Hidden" FontSize="30" HorizontalAlignment="Left" Height="53" Margin="314,149,0,0" VerticalAlignment="Top" Width="155"/>
+        <Button Content="Click for a message!" Click="Button_Click" HorizontalAlignment="Left" VerticalAlignment="Top" Width="112" Margin="65,165,0,0" Height="32"/>
 
     </Grid>
 </Window>
